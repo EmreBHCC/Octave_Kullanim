@@ -11,7 +11,7 @@ subplot(312);
 stem(t2,or,'r');
 ylabel('Ornekleme darbesi')
 
-t3= 0:1/(5*fm):T;
+t3= 0:1/(10*fm):T; % fm katsayısını değiştirerek örneklemelerin sinyaldeki sayısını değiştirebiliriz
 u2= 5*sin(2*pi*fm*t3);
 subplot(313);
 stem(t3,u2,'filled');

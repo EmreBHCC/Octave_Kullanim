@@ -7,7 +7,7 @@ s=[1 0 1 0 1 0 1];
 a=length(s);
 
 for i=1:a
-  if s(1,i) == 1
+  if s(1,i) == 1 % dizideki ifade 1 e esitse
     freg=f1*s(1,i);
     f=f1*s(1,i);
     for t=(i-1)*100+1:i*100
